@@ -162,3 +162,10 @@ SET city = 'Екатеринбург',
 WHERE name = 'Иван Петров';
 
 SELECT * FROM test_customers WHERE name = 'Иван Петров';
+
+
+-- 12. DELETE: удаление клиента по условию
+DELETE FROM test_customers 
+WHERE name = 'Алексей Смирнов';
+
+SELECT * FROM test_customers;
