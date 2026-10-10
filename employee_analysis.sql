@@ -131,3 +131,25 @@ ORDER BY
     CASE WHEN e.ReportsTo IS NULL THEN 0 ELSE 1 END,
     e.Title,
     e.LastName;
+
+
+-- ============================================
+-- БЛОК 4: РАБОТА С ДАННЫМИ (DML)
+-- ============================================
+
+
+-- 10. INSERT: создание тестовой таблицы и вставка данных
+CREATE TABLE IF NOT EXISTS test_customers (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT UNIQUE,
+    city TEXT,
+    created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO test_customers (name, email, city) VALUES
+    ('Иван Петров', 'ivan@example.com', 'Москва'),
+    ('Мария Сидорова', 'maria@example.com', 'Санкт-Петербург'),
+    ('Алексей Смирнов', 'alexey@example.com', 'Казань');
+
+SELECT * FROM test_customers;
