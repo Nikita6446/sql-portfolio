@@ -169,3 +169,9 @@ DELETE FROM test_customers
 WHERE name = 'Алексей Смирнов';
 
 SELECT * FROM test_customers;
+
+
+-- 13. Очистка: удаляем тестовую таблицу
+DROP TABLE IF EXISTS test_customers;
+
+SELECT name FROM sqlite_master WHERE type='table' AND name='test_customers';
