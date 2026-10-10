@@ -153,3 +153,12 @@ INSERT INTO test_customers (name, email, city) VALUES
     ('Алексей Смирнов', 'alexey@example.com', 'Казань');
 
 SELECT * FROM test_customers;
+
+
+-- 11. UPDATE: обновление данных клиента
+UPDATE test_customers 
+SET city = 'Екатеринбург', 
+    email = 'ivan.new@example.com'
+WHERE name = 'Иван Петров';
+
+SELECT * FROM test_customers WHERE name = 'Иван Петров';
