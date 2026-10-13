@@ -11,7 +11,7 @@
 | `employee_analysis.sql` | SQLite | 13 SQL-запросов: от базовой агрегации до DML/DDL |
 | `oracle_plsql_examples.sql` | Oracle | PL/SQL: курсор, хранимая процедура, обработка исключений |
 
-|### `employee_analysis.sql` — 13 SQL-запросов
+|### `employee_analysis.sql` - 13 SQL-запросов
 
 | № | Запрос | Навык |
 |---|--------|-------|
@@ -29,7 +29,7 @@
 | 12 | Удаление клиента | `DELETE` |
 | 13 | Очистка тестовой таблицы | `DROP TABLE` |
 
-### `oracle_plsql_examples.sql` — PL/SQL
+### `oracle_plsql_examples.sql` - PL/SQL
 
 | Блок | Навык |
 |------|-------|
@@ -71,11 +71,11 @@
 
 ## Инструменты
 
-- **DBeaver** — среда для работы с базами данных
-- **SQLite** — учебная база данных
-- **Oracle Database 21c Express Edition** — СУБД для PL/SQL
-- **Docker** — запуск Oracle в контейнере
-- **GitHub** — хранение и версионирование
+- **DBeaver** - среда для работы с базами данных
+- **SQLite** - учебная база данных
+- **Oracle Database 21c Express Edition** - СУБД для PL/SQL
+- **Docker** - запуск Oracle в контейнере
+- **GitHub** - хранение и версионирование
 
 ## Контакты
 
