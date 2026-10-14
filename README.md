@@ -45,6 +45,8 @@
 - Выполняет SQL-запрос (счета по месяцам 2013 года).
 - Строит комбинированный график (столбцы + линия) через `matplotlib`.
 
+![График счетов по месяцам](python_visualization/invoice_by_month.png)
+
 **Стек:** Python, pandas, matplotlib, sqlite3.
 
 ## Навыки
