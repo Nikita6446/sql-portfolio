@@ -38,6 +38,15 @@
 | Хранимая процедура | `CREATE OR REPLACE PROCEDURE`, параметр `IN`, `%TYPE`, `SELECT INTO` |
 | Обработка исключений | `NO_DATA_FOUND`, `TOO_MANY_ROWS`, `VALUE_ERROR`, `OTHERS`, `SQLERRM` |
 
+## Визуализация данных (Python)
+
+Папка `python_visualization/` содержит скрипт `visualize.py`, который:
+- Подключается к SQLite через `sqlite3`.
+- Выполняет SQL-запрос (счета по месяцам 2013 года).
+- Строит комбинированный график (столбцы + линия) через `matplotlib`.
+
+**Стек:** Python, pandas, matplotlib, sqlite3.
+
 ## Навыки
 
 **Работа с данными (DML):**
@@ -69,14 +78,24 @@
 - Привязка типов (`%TYPE`)
 - Обработка исключений (`EXCEPTION`, `RAISE`, `SQLERRM`)
 
+**Визуализация данных (Python):**
+- Подключение к SQLite через `sqlite3`
+- Загрузка данных в `pandas.DataFrame`
+- Построение графиков через `matplotlib`
+- Комбинированные графики (столбцы + линия, две оси)
+
 ## Инструменты
 
 - **DBeaver** - среда для работы с базами данных
 - **SQLite** - учебная база данных
 - **Oracle Database 21c Express Edition** - СУБД для PL/SQL
 - **Docker** - запуск Oracle в контейнере
+- **Python 3** — язык для визуализации
+- **pandas** — обработка данных
+- **matplotlib** — построение графиков
 - **GitHub** - хранение и версионирование
 
 ## Контакты
 
 - GitHub: [Nikita6446](https://github.com/Nikita6446)
+- Почта: nekita.46@mail.ru
